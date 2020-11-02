@@ -1,5 +1,5 @@
 import Home from '../containers/Home/index';
-import {getLaunches} from '../component/SpaceXLaunches/action';
+import {getLaunches} from '../actions/action';
 
 const Routes = [
     {

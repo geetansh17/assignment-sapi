@@ -1,13 +1,14 @@
 import React from "react";
 import { connect } from "react-redux";
-import {onClickSelectFilter} from "./action";
+import {onClickSelectFilter} from "../../actions/action";
 import styled from 'styled-components';
 import LaunchCard from "./LaunchCard";
 import Filter from "./Filter";
 
 const Container = styled.div`
-    display: flex;
-    flex-direction: column;
+    grid-area: inherit;
+    grid-template-columns: 20% 80%;
+    display: grid;
     margin: 0 auto;
     max-width: 1440px;
 

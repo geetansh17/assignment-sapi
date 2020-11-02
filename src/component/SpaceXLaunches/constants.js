@@ -1,4 +1,11 @@
-export const actionType = {
+
+export const filters = {
+    LAUNCH_YEAR: 'launch_year',
+    SUCCESSFUL_LAUNCH: 'successful_launch',
+    SUCCESSFUL_LANDING: 'successful_landing'
+}
+
+export const actions = {
     GET_LAUNCHES_SUCCESS: 'GET_LAUNCHES_SUCCESS',
     GET_LAUNCHES_FAIL: 'GET_LAUNCHES_FAIL',
     GET_LAUNCHES_REQUESTING: 'GET_LAUNCHES_REQUESTING',
@@ -19,10 +26,5 @@ export const FILTERS = [{
     values: ['True', 'False']
 }]
 
-export const filterType = {
-    LAUNCH_YEAR: 'launch_year',
-    SUCCESSFUL_LAUNCH: 'successful_launch',
-    SUCCESSFUL_LANDING: 'successful_landing'
-}
 
 export const API_URL = 'https://api.spacexdata.com/v3/launches';

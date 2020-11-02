@@ -1,4 +1,4 @@
-import spaceXLaunches from "../../component/SpaceXLaunches/reducer";
+import spaceXLaunches from "../../reducers/reducer";
 
 export const rootReducer = {
     spaceXLaunches
