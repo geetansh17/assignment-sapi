@@ -1,4 +1,4 @@
-# publicis_sapient_assignment(SERVER SIDE RENDERED)
+# sapient_assignment
 
 For running the project-: 
 
