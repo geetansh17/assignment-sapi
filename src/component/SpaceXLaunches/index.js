@@ -11,20 +11,18 @@ const Container = styled.div`
     display: grid;
     margin: 0 auto;
     max-width: 1440px;
-
-    @media(min-width: 700px) {
-        flex-direction: row;
+    @media(max-width: 700px) {
+        grid-template-columns: 100%;
     }
 `;
 
 const CardContainer = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
+    display: grid;
     margin-left: 20px;
-
-    @media(min-width: 700px) {
+    grid-template-columns: 25% 25% 25% 25%;
+    @media(max-width: 700px) {
         margin-left: 0;
+        grid-template-columns: 100%;
     }
 `;
 

@@ -9,13 +9,6 @@ const Card = styled.div`
     width: calc(100% - 20px);
     margin-bottom: 20px;
     margin-right: 20px;
-    @media(min-width: 700px) {
-        width: calc(50% - 20px);
-    }
-
-    @media(min-width: 1024px) {
-        width: calc(25% - 20px);
-    }
 `;
 
 const CardImage = styled.div`
@@ -66,7 +59,7 @@ const DetailRow = styled.div`
 const LaunchCard = ({ launch }) => (
     <Card>
         <CardImage>
-            <img loading='lazy' height='150px' src={launch?.links?.mission_patch_small} alt={`space shuttle with mission name ${launch.mission_name}`}></img>
+            <img  height='150px' src={launch?.links?.mission_patch_small} alt={`space shuttle with mission name ${launch.mission_name}`}></img>
         </CardImage>
         <CardDetails>
             <div className="title">{`${launch.mission_name} #${launch.flight_number}`}</div>

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 import { FILTERS } from "../constants";
-import FilterPill from "../../UIComponents/FilterPill";
+import FilterPill from "../FilterPill";
 
 const Container = styled.div`
     display: flex;
